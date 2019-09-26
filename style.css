@@ -1,0 +1,462 @@
+/*GENERAL APPEARANCE*/
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+body
+{
+	margin: 0px;
+	background-color: #81d2fd;
+	text-align: center;
+}
+
+.searchbox
+{
+	-webkit-appearance: none;
+	-webkit-border-radius:0px;
+
+	
+ 	background-color: white;
+	text-align: center;
+ 	height:30px;
+ 	width: 85%;
+ 	display:block;
+ 	margin:auto;
+	border: 0px solid;
+	font-family: 'Exo 2', sans-serif;
+	border-right:none;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+}
+
+input 
+{
+	float:left;
+}
+
+/*Placeholder color from w3schools*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    gray;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    gray;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    gray;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    gray;
+}
+
+.searchbutton 
+{
+	-webkit-appearance: none;
+	-webkit-border-radius:0px;
+	
+	float: left;
+	color: white;
+	background-color: #ff5454;
+	border: 0px;
+	font-family: 'Exo 2', sans-serif;
+	height: 32px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;	
+}
+
+#searchboxmeny
+{
+	width: 80%;
+}
+
+#searchbuttonmeny
+{
+	height: 34px;
+}
+
+
+/*STARTPAGE*/
+
+#starttable td
+{	
+	text-align: center;
+}
+
+.speechbubble
+{	
+	display: block;
+	margin: 100px auto 0 auto;
+	background-image: url("images/speechbubble_right.svg");
+	background-repeat: no-repeat;
+	width: 550px;
+	height: 270px;
+    background-position: center;
+	font-family: 'Exo 2', sans-serif;	
+
+
+}
+
+#speechbubbletext
+{
+	padding: 30px 30px 30px 30px;
+
+}
+
+#startpagetext
+{
+	width: 700px;
+	display: block;
+	margin: auto;
+	text-align: center;
+
+}
+
+.headingstart 
+{
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	margin: 0;
+	padding-bottom: 2vh;
+	font-size: 70px;
+	color: white;
+}
+
+.legoman_img
+{
+	height: 250px;
+}
+
+.startpageabout
+{	
+	
+	font-family: 'Exo 2', sans-serif;
+	height: 200px;
+	width: 200px;
+	margin:auto;
+	margin-top:60px;
+	padding-right:30px;
+	text-decoration: underline;
+	
+	
+}
+
+
+/*CUSTOM ALERT FOR EMPTY SEARCH
+source https://www.developphp.com/video/JavaScript/Custom-Alert-Box-Programming-Tutorial*/
+
+#dialogoverlay{
+	display: none;
+	opacity: .2;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: black;
+	width: 100%;
+	z-index: 10;
+}
+#dialogbox{
+	font-family: 'Exo 2', sans-serif;
+	color:black;
+	display: none;
+	position: fixed;
+	background-image: url("images/speechbubble_right.svg");
+	background-repeat: no-repeat;
+	width: 550px;
+	height: 270px;
+    background-position: center;
+	z-index: 10;
+	margin: 0 auto;
+	
+}
+#dialogbox > div{ margin:8px; }
+#dialogbox > div > #dialogboxhead{ padding-top:15px; }
+#dialogbox > div > #dialogboxbody{  padding:0px; }
+#dialogbox > div > #dialogboxfoot{  padding:10px; text-align:right; }
+
+#alert_button
+{
+	color: white;
+	background-color: #ff5454;
+	height: 50px;
+	width: 70px;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;	
+}
+
+
+/*BRICKS & SETS & ABOUT*/
+
+.meny
+{
+	width: 1000px;
+	height: 80px;
+	display: block;
+	margin: 0 auto 10px auto;
+	border: 2px solid #81d2fd;
+	position: static;
+	z-index: 1;
+
+}
+
+.meny td
+{
+	background-color: white;
+	height: 74px;
+	width: 100px;
+	padding: 2px;
+	text-align: center;
+
+}
+
+.menyfont
+{
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+}
+
+
+menyfont, a:visited
+
+{
+	text-decoration: none;	
+}
+
+menyfont, a:active
+{
+	font-size: 90%;
+	text-decoration: none;
+}
+
+
+menyfont, a:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+
+#searchbox_menu
+{
+	border: 1px solid lightgray;
+	border-right: none;
+	margin-left: 25px;
+}
+
+
+
+/*BRICKS & SETS*/
+
+
+.header
+{	
+	display: block;
+	margin: 0 auto ;
+	background-image: url("images/header.svg");
+	background-repeat: no-repeat;
+	width: 1000px;
+	height: 165px;
+    background-position: center;
+	font-family: 'Exo 2', sans-serif;	
+
+
+}
+
+.middlediv
+{
+	background-color: white;
+	width: 1000px;
+	height: auto;
+	display: block;
+	margin: auto;
+	margin-top: 0px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	
+}
+
+table
+{
+    border-spacing: 6px; 
+	table-layout: fixed;
+}
+
+
+th, td, tr
+{	
+	border-radius: 5px;
+	table-layout: fixed;
+	height: 60px;
+	width: auto;
+}
+
+.speechbubble_table
+{
+	padding: 30px 400px 50px 100px;
+}
+
+.displaytable
+{	
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	border-collapse: collapse;
+	
+}
+
+.displaytable td:first-child+td+td+td
+{	
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	border-collapse: collapse;
+	
+}
+
+.displaytable td:first-child
+{
+	border-left: 1px solid white;
+}
+.displaytableset td:first-child
+{
+	border-left: 1px solid white;
+}
+
+.displaytable td:last-child
+{
+	border-right: 0px;
+}
+
+.displaytable td
+{
+	border: 1px solid #81d2fd;
+	border-radius: 5px;
+}
+
+.pagefooter
+{
+	display: block;
+	float: bottom;
+	height: 100px;
+    width: 1000px;
+	background-color: white;
+	margin: 0 auto 15px auto;
+	border-radius: 0 0 5px 5px;
+	
+}
+
+.pagebutton
+{
+	margin-top: 20px;
+	width: 100px;
+}
+
+/*DISPLAY BRICKS*/
+
+.choosebutton
+{
+	background-color: white;
+    border: none;
+    color: white;
+}
+
+.choosebutton:hover
+{
+	cursor:pointer;
+}
+.choose_img
+{
+	background-color: white;
+	padding: 0px;
+	width: 100px;
+
+}
+
+/*DISPLAY SETS*/
+
+.displaytableset
+{	
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	border-collapse: collapse;
+}
+
+.displaytableset td
+{
+	border: 1px solid #81d2fd;
+	border-radius: 5px;
+}
+
+/*ABOUT*/
+
+#about_div
+{
+	background-color: transparent;
+	text-align:center;
+	margin: auto;
+	width: 1000px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.about_speech_left
+{
+	display: block;
+	margin: auto;
+	background-image: url("images/about_left.svg");
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 300px;
+    background-position: center;
+	font-family: 'Exo 2', sans-serif;	
+	
+}
+
+.about_speech_right
+{
+	display: block;
+	margin: auto;
+	background-image: url("images/about_right.svg");
+	background-repeat: no-repeat;
+	width: 700px;
+	height: 300px;
+    background-position: center;
+	font-family: 'Exo 2', sans-serif;	
+	
+}
+
+.about_text_left
+{	
+	text-align: center;
+	padding: 20px 110px 20px 140px;
+
+}
+
+.about_text_right
+{	
+	text-align: center;
+	padding: 20px 140px 20px 110px ;
+
+}
+#divylva
+{
+	background-color: #e495f9;
+}
+#divadrian
+{
+	background-color: #91fc8f;
+}
+
+#divdaniel
+{
+	background-color: #f2d576;
+}
+
+#divemil
+{
+	background-color: #fcb0c2;
+}
